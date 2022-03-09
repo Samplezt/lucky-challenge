@@ -1,0 +1,23 @@
+{
+  "name": "lucky-challenge",
+  "version": "1.0.0",
+  "description": "lucky automation challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samplezt/lucky-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samplezt/lucky-challenge/issues"
+  },
+  "homepage": "https://github.com/Samplezt/lucky-challenge#readme",
+  "dependencies": {
+    "testcafe": "^1.18.4",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
