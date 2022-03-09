@@ -1,0 +1,26 @@
+{
+    "screenshots": {
+        "path": "./artifacts/screenshots",
+        "pathPattern": "${FIXTURE}/${DATE}_${TIME}/${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+        "takeOnFails": true
+    },
+    "reporter": [
+        {
+            "name": "spec"
+        },
+        {
+            "name": "html",
+            "output": "./artifacts/reports/report.html"
+        }
+    ],
+    "selectorTimeout": 5000,
+    "assertionTimeout": 10000,
+    "debugMode": false,
+    "debugOnFail": false,
+    "skipJsErrors": false,
+    "skipUncaughtErrors": true,
+    "developmentMode": false,
+    "stopOnFirstFail": false,
+    "color": true
+}
+
