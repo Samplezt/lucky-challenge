@@ -16,9 +16,7 @@ test("El segundo item debe tener stock para la compra", async t =>{
     await HomePage.search('iphone')
     await ListingPage.clickNextPage()
     await ListingPage.clickOnProduct(2)
-    //await t.expect((Selector('div.product-quantity-tip')).exists).ok()
     await t.expect(Product.stockAvailable.exists).ok() // esperamos a que sea accesible el elemento que tiene el stock disponible
-    //let currentStock = await (Selector('div.product-quantity-tip')).textContent
     let currentStock = await (Product.stockAvailable).textContent
     currentStock = currentStock.split(" ")
     currentStock = parseInt(currentStock[0])
